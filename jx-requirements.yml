@@ -3,17 +3,12 @@ autoUpdate:
   schedule: ""
 bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
 cluster:
-  azure: {}
-  clusterName: cloudsmart-cluster1
-  environmentGitOwner: cloudsmartio
-  gitKind: github
-  gitName: github
-  gitServer: https://github.com
-  namespace: jx
-  project: cloudsmart-ci-10121901
+  clusterName: ""
+  environmentGitOwner: ""
+  environmentGitPublic: false
+  project: ""
   provider: gke
   zone: ""
-  environmentGitPublic: false
 gitops: true
 environments:
 - ingress:
