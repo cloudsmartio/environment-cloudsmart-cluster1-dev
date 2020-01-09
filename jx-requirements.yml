@@ -3,13 +3,12 @@ autoUpdate:
   schedule: ""
 bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  environmentGitPublic: false
-  project: ""
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
   provider: gke
-  zone: ""
-gitops: true
+  vaultName: jx-vault-cloudsmart-ci-10121901
 environments:
 - ingress:
     cloud_dns_secret_name: external-dns-gcp-sa
@@ -69,6 +68,6 @@ vault:
   name: jx-vault-cloudsmart-ci-10121901
 velero: {}
 versionStream:
-  ref: v1.0.272
+  ref: v1.0.290
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
