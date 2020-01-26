@@ -31,7 +31,7 @@ dependencies:
   versionURL: ""
 - host: github.com
   owner: cloudsmartio
-  repo: agile-project-manager-composite
-  url: https://github.com/cloudsmartio/agile-project-manager-composite.git
+  repo: agile-project-manager-composite-2
+  url: https://github.com/cloudsmartio/agile-project-manager-composite-2.git
   version: ""
   versionURL: ""
