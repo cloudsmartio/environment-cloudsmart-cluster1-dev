@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: monstertrux
+    provider: github
+    repository: comments-service
+  name: monstertrux-comments-service
+spec:
+  description: Imported application for monstertrux/comments-service
+  httpCloneURL: https://github.com/monstertrux/comments-service.git
+  org: monstertrux
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: comments-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/monstertrux/comments-service.git
